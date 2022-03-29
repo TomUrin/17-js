@@ -24,9 +24,9 @@ const dogs = [2, 1, 4, 3, 5];
 console.log(dogs);
 console.log('=', 2-1+4-3+5);
 
-const names = ['John', 'Tom', 'Nick', 'Norah', 'Annie'];
+const names = ['John, Tom, Nick, Norah, Annie'];
 console.log(names);
-const cars = ['Audi', 'BMW', 'Mercedes', 'Toyota', 'Tesla'];
+const cars = ['Audi, BMW, Mercedes, Toyota, Tesla'];
 console.log(cars);
-const brands = ['Microsoft', 'Apple', 'Sony', 'Xiaomi', 'Samsung'];
+const brands = ['Microsoft, Apple, Sony, Xiaomi, Samsung'];
 console.log(brands);
