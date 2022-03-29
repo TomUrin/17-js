@@ -16,13 +16,16 @@ console.log(first + ' ' + second + ' ' + third);
 
 const numbers = [12, 21, 35, 44, 56];
 console.log(numbers);
-console.log('=', 12-21+35-44+56);
+const sum = numbers[0] - numbers[1] + numbers[2] - numbers[3] + numbers[4];
+console.log('=', sum);
 const cats = [5, 4, 3, 2, 1];
 console.log(cats);
-console.log('=', 5-4+3-2+1);
+const numOfCats = cats[0] - cats[1] + cats[2] - cats[3] + cats[4];
+console.log('=', numOfCats);
 const dogs = [2, 1, 4, 3, 5];
 console.log(dogs);
-console.log('=', 2-1+4-3+5);
+const numOfDogs = dogs[0] - dogs[1] + dogs[2] - dogs[3] + dogs[4];
+console.log('=', numOfDogs);
 
 const names = ['John, Tom, Nick, Norah, Annie'];
 console.log(names);
